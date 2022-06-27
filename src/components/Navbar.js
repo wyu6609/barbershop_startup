@@ -16,9 +16,9 @@ function OffcanvasExample() {
           <Navbar.Brand href="#">
             <img
               alt=""
-              src="/images/navbar_logo.png"
-              width="30"
-              height="30"
+              src="https://github.com/wyu6609/barbershop_startup/blob/main/public/images/navbar_logo.png?raw=true"
+              width="80"
+              height="80"
               className="d-inline-block align-top"
             />
           </Navbar.Brand>
