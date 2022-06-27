@@ -20,7 +20,7 @@ Start by **cloning** (not forking) the project template repository and removing
 the remote:
 
 ```console
-$ git clone git@github.com:wyu6609/website_template.git
+$ git clone git@github.com:wyu6609/website_template.git your-project-name
 $ cd your-project-name
 $ git remote rm origin
 ```
@@ -46,7 +46,7 @@ Finally, connect the GitHub remote repository to your local repository and push
 up your code:
 
 ```console
-$ git remote add origin git@github.com:your-username/your-project-name.git your-project-name
+$ git remote add origin git@github.com:your-username/your-project-name.git
 $ git push -u origin main
 ```
 
