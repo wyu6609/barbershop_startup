@@ -31,7 +31,9 @@ function OffcanvasExample() {
                 <Nav.Link href="/Route1">Route1</Nav.Link>
                 <Nav.Link href="/Route2">Route2</Nav.Link>
               </Nav>
-              <Form className="d-flex">
+
+              {/* search component */}
+              {/* <Form className="d-flex">
                 <Form.Control
                   type="search"
                   placeholder="Search"
@@ -39,7 +41,7 @@ function OffcanvasExample() {
                   aria-label="Search"
                 />
                 <Button variant="outline-success">Search</Button>
-              </Form>
+              </Form> */}
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
