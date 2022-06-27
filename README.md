@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Project Template: React Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This project is setup so that you can build a React frontend with React Bootstrap and React-Router-Dom
 
-In the project directory, you can run:
+## Requirements
 
-### `npm start`
+- NodeJS (v16), and npm
+- React v18
+- React Bootstrap
+- React-Router-Dom v6
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+See Environment Setup below for instructions on installing these tools if you
+don't already have them.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup
 
-### `npm test`
+Start by **cloning** (not forking) the project template repository and removing
+the remote:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```console
+$ git clone git@github.com:wyu6609/website_template.git
+$ cd your-project-name
+$ git remote rm origin
+```
 
-### `npm run build`
+Then, [create a new remote repository][create repo] on GitHub. Head to
+[github.com](https://github.com) and click the **+** icon in the top-right
+corner and follow the steps to create a new repository. **Important**: don't
+check any of the options such as 'Add a README file', 'Add a .gitignore file',
+etc — since you're importing an existing repository, creating any of those files
+on GitHub will cause issues.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[create repo]: https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line#adding-a-project-to-github-without-github-cli
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you're working with a partner,
+[add them as a collaborator][add collaborator] on GitHub. From your repo on
+GitHub, go to Settings > Manage Access > Invite a collaborator and enter your
+partner's username. Once your partner has access, they should git **clone** (not
+fork) the repository.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[add collaborator]: https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository
 
-### `npm run eject`
+Finally, connect the GitHub remote repository to your local repository and push
+up your code:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```console
+$ git remote add origin git@github.com:your-username/your-project-name.git
+$ git push -u origin main
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+When you're ready to start building your project, run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+npm install
+```
