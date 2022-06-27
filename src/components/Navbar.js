@@ -11,9 +11,17 @@ import {
 function OffcanvasExample() {
   return (
     <>
-      <Navbar bg="light" expand="sm" className="mb-3">
+      <Navbar bg="dark" variant="dark" expand="sm">
         <Container fluid>
-          <Navbar.Brand href="#">Brand</Navbar.Brand>
+          <Navbar.Brand href="#">
+            <img
+              alt=""
+              src="/images/navbar_logo.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-false`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-false`}
