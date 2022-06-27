@@ -46,7 +46,7 @@ Finally, connect the GitHub remote repository to your local repository and push
 up your code:
 
 ```console
-$ git remote add origin git@github.com:your-username/your-project-name.git
+$ git remote add origin git@github.com:your-username/your-project-name.git your-project-name
 $ git push -u origin main
 ```
 
