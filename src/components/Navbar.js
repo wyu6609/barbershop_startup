@@ -11,15 +11,15 @@ import {
 function OffcanvasExample() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="sm">
+      <Navbar bg="dark" variant="dark" expand="sm" className="py-0">
         <Container fluid>
-          <Navbar.Brand href="#">
+          <Navbar.Brand href="">
             <img
-              alt=""
+              alt="logo"
               src="https://github.com/wyu6609/barbershop_startup/blob/main/public/images/logo.png?raw=true"
-              width="80"
-              height="80"
-              className="d-inline-block align-top"
+              className=""
+              width="120"
+              height="120"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-false`} />
