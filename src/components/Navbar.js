@@ -13,12 +13,12 @@ import "./Navbar.css";
 function OffcanvasExample() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="sm" className="py-0">
+      <Navbar bg="dark" variant="light" expand="sm" className="py-0 shadow-lg">
         <Container fluid>
           <Navbar.Brand href="">
             <img
               alt="logo"
-              src="https://s.tmimgcdn.com/scr/800x500/78300/cat-logo-template_78332-2-original.jpg"
+              src="https://github.com/wyu6609/barbershop_startup/blob/main/src/components/images/catlogo.png?raw=true"
               className=""
               width="120"
               height="120"
