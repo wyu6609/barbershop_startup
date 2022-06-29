@@ -18,7 +18,7 @@ function OffcanvasExample() {
           <Navbar.Brand href="">
             <img
               alt="logo"
-              src="https://github.com/wyu6609/barbershop_startup/blob/main/public/images/logo.png?raw=true"
+              src="https://s.tmimgcdn.com/scr/800x500/78300/cat-logo-template_78332-2-original.jpg"
               className=""
               width="120"
               height="120"

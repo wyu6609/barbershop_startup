@@ -8,13 +8,14 @@
 
 .hero:before {
   content: "";
-  background: url("./images/hero.jpeg") no-repeat center center/cover;
+  background: url("./images/shadow.png") no-repeat center;
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
+  background-color: #0769e0;
 }
 
 .hero .content {
