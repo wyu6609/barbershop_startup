@@ -10,12 +10,13 @@ import Route3 from "./routes/Route3";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Navbar />
       <Hero />
-      <Route1 />
       <Route2 />
       <Route3 />
+      <Route1 />
+      {/* <Route3 /> */}
     </div>
   );
 }

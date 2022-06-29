@@ -7,6 +7,8 @@ import {
   NavDropdown,
   Offcanvas,
 } from "react-bootstrap";
+import { Link } from "react-scroll";
+import "./Navbar.css";
 
 function OffcanvasExample() {
   return (
@@ -34,10 +36,28 @@ function OffcanvasExample() {
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/Route1">Route1</Nav.Link>
-                <Nav.Link href="/Route2">Route2</Nav.Link>
+              <Nav className="justify-content-end flex-grow-1 pe-3 ">
+                <Nav.Link className="nav-item" href="/">
+                  <Link
+                    activeClass="active"
+                    to="test1"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                    onClick={() => {
+                      console.log("clciekd");
+                    }}
+                  >
+                    Test 1
+                  </Link>
+                </Nav.Link>
+                <Nav.Link className="nav-item" href="/Route1">
+                  Route1
+                </Nav.Link>
+                <Nav.Link className="nav-item" href="/Route2">
+                  Route2
+                </Nav.Link>
               </Nav>
 
               {/* search component */}
