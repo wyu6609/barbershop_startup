@@ -6,6 +6,7 @@ import {
   Navbar,
   NavDropdown,
   Offcanvas,
+  Image,
 } from "react-bootstrap";
 import { Link } from "react-scroll";
 import "./Navbar.css";
@@ -13,15 +14,16 @@ import "./Navbar.css";
 function OffcanvasExample() {
   return (
     <>
-      <Navbar bg="dark" variant="light" expand="sm" className="py-0 shadow-lg">
+      <Navbar bg="dark" variant="dark" expand="sm" className="py-0 shadow-lg">
         <Container fluid>
           <Navbar.Brand href="">
-            <img
+            <Image
               alt="logo"
-              src="https://github.com/wyu6609/barbershop_startup/blob/main/src/components/images/catlogo.png?raw=true"
+              src="https://github.com/wyu6609/barbershop_startup/blob/main/src/components/images/catlogo1.png?raw=true"
               className=""
               width="120"
               height="120"
+              borderRadius="3"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-false`} />

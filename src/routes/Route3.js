@@ -20,7 +20,7 @@ const Demo = () => {
           <iframe
             width="570"
             height="320"
-            src="https://www.youtube.com/embed/oeqP5JtihMA"
+            src="https://www.youtube.com/watch?v=06zVBOvH_i0&t=90s"
             title="Youtube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
