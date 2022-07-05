@@ -27,11 +27,10 @@ function OffcanvasExample() {
               <Image
                 alt="logo"
                 src="https://github.com/wyu6609/barbershop_startup/blob/main/src/components/images/catlogo1.png?raw=true"
-                className=""
+                className="my-3"
                 width="120"
                 height="120"
                 style={{ borderRadius: "30%" }}
-                className="my-3"
               />
             </Link>
           </Navbar.Brand>
