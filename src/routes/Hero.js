@@ -4,7 +4,9 @@ import "../components/Hero.css";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="content"></div>
+      <div className="content">
+        <div className="cat-img"></div>
+      </div>
     </div>
   );
 };

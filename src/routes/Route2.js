@@ -8,7 +8,12 @@ const Route2 = () => {
         <span className="line"></span>
         <div className="content">
           <div className="card">
-            <img src="" alt="user1" />
+            <img
+              src="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+              alt="user1"
+              height="250"
+              width="350"
+            />
             <p>
               I stumbled on this undiscovered gem right in our neighboorhood.
               This was one of the best mouth-watering steaks I've had grace my
@@ -19,10 +24,15 @@ const Route2 = () => {
             <p>
               <span>Milo</span>
             </p>
-            <p>Director of "Financial Times"</p>
+            <p>Director of "Fur Times"</p>
           </div>
           <div className="card s">
-            <img src="" alt="user1" />
+            <img
+              src="https://www.vmcdn.ca/f/files/via/images/animals/cat-wearing-face-mask.jpg;w=960"
+              alt="user1"
+              height="250"
+              width="350"
+            />
             <p>
               This is one of my favorite places. The food was cooked to
               perfection. The decor was unique and incredible. After my meal, I
@@ -32,10 +42,15 @@ const Route2 = () => {
             <p>
               <span>Bella</span>
             </p>
-            <p>Director at Risktec Solutions Ltd</p>
+            <p>Director at Catech Solutions Ltd</p>
           </div>
           <div className="card">
-            <img src="" alt="user1" />
+            <img
+              src="https://scitechdaily.com/images/Cat-Wearing-COVID-19-Mask.jpg"
+              alt="user1"
+              height="250"
+              width="350"
+            />
             <p>
               My taste buds are still singing from our last visit! Everything
               was just so yummy. The experience was heavenly as I was served a
@@ -44,7 +59,7 @@ const Route2 = () => {
             <p>
               <span>Shadow</span>
             </p>
-            <p>Managing Director of BPW Global</p>
+            <p>Managing Director of PAW Global</p>
           </div>
         </div>
       </div>

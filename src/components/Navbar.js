@@ -23,7 +23,8 @@ function OffcanvasExample() {
               className=""
               width="120"
               height="120"
-              borderRadius="3"
+              style={{ borderRadius: "30%" }}
+              className="my-3"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-false`} />
@@ -39,39 +40,39 @@ function OffcanvasExample() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3 ">
-                <Nav.Link className="nav-item" href="/">
-                  <Link
-                    activeClass="active"
-                    to="test1"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                    onClick={() => {
-                      console.log("clciekd");
-                    }}
-                  >
-                    Test 1
-                  </Link>
-                </Nav.Link>
-                <Nav.Link className="nav-item" href="/Route1">
-                  Route1
-                </Nav.Link>
-                <Nav.Link className="nav-item" href="/Route2">
-                  Route2
-                </Nav.Link>
-              </Nav>
+                <Link
+                  activeClass="active"
+                  to="testimonials"
+                  smooth={true}
+                  duration={250}
+                >
+                  <Nav.Link className="nav-item" href="/">
+                    Testimonials
+                  </Nav.Link>
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="route3"
+                  smooth={true}
+                  duration={250}
+                >
+                  <Nav.Link className="nav-item" href="/Route1">
+                    More Info
+                  </Nav.Link>
+                </Link>
 
-              {/* search component */}
-              {/* <Form className="d-flex">
-                <Form.Control
-                  type="search"
-                  placeholder="Search"
-                  className="me-2"
-                  aria-label="Search"
-                />
-                <Button variant="outline-success">Search</Button>
-              </Form> */}
+                <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                >
+                  <Nav.Link className="nav-item" href="/Route2">
+                    About
+                  </Nav.Link>
+                </Link>
+              </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
